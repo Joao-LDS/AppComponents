@@ -3,13 +3,13 @@ Pod::Spec.new do |spec|
   spec.name = 'AppComponents'
   spec.version = '0.1.0'
   spec.summary = 'Components to be used in the App.'
-  spec.homepage = 'YourRepoHomepage'
-  spec.author = { 'YourName' => "your@email.com" }
+  spec.homepage = 'https://github.com/Joao-LDS/AppComponents'
+  spec.author = { 'João Luis dos Santos' => "joao_l_d_s@hotmail.com" }
   spec.license = { :type => 'private' }
-  spec.source = { :git => 'YourRepoURL',
+  spec.source = { :git => 'https://github.com/Joao-LDS/AppComponents.git',
                   :tag => spec.version.to_s }
 
-  spec.ios.deployment_target = '10.0'
+  spec.ios.deployment_target = '11.0'
   spec.requires_arc = true
 
   spec.cocoapods_version = '>= 1.5'
