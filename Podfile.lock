@@ -1,0 +1,28 @@
+PODS:
+  - AppComponents (0.1.0):
+    - "UIView+Shimmer"
+  - SnapshotTesting (1.9.0)
+  - "UIView+Shimmer (1.0.0)"
+
+DEPENDENCIES:
+  - AppComponents (from `./`)
+  - SnapshotTesting
+  - "UIView+Shimmer"
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SnapshotTesting
+    - "UIView+Shimmer"
+
+EXTERNAL SOURCES:
+  AppComponents:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  AppComponents: dff63658638a9a2d506b78113b13846235d2a92f
+  SnapshotTesting: 6141c48b6aa76ead61431ca665c14ab9a066c53b
+  "UIView+Shimmer": ed634f95e8f4bda666b28b47bd85a4336a4117d8
+
+PODFILE CHECKSUM: f961e87d17cf7d027d4ce4fc4cc07a69e48bdbb1
+
+COCOAPODS: 1.11.2
