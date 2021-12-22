@@ -18,4 +18,8 @@ public extension UIButton {
 		layer.cornerRadius = value
 	}
 	
+	func setColor(_ color: UIColor) {
+		backgroundColor = color
+	}
+	
 }
