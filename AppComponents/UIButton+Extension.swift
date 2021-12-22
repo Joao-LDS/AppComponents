@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIButton {
+public extension UIButton {
 	
 	public func setBorder(_ color: UIColor, width: CGFloat) {
 		layer.borderColor = color.cgColor

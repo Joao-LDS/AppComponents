@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		879E77E327736B2900720EA6 /* AppComponents.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 879E77E227736B2900720EA6 /* AppComponents.podspec */; };
 		879F8DEF277239AB002CA554 /* AppComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879F8DE5277239AB002CA554 /* AppComponents.framework */; };
 		879F8DF4277239AB002CA554 /* AppComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879F8DF3277239AB002CA554 /* AppComponentsTests.swift */; };
 		879F8DF6277239AB002CA554 /* AppComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 879F8DE8277239AB002CA554 /* AppComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,6 +37,7 @@
 		2C4947AACAB760FFD5F1EF15 /* Pods_AppComponents_AppComponentsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppComponents_AppComponentsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		474BE8C89D230C0792202AFE /* Pods-AppComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppComponents.debug.xcconfig"; path = "Target Support Files/Pods-AppComponents/Pods-AppComponents.debug.xcconfig"; sourceTree = "<group>"; };
 		4CAEC6F1CE4C68A7D43912E6 /* Pods-AppComponents-AppComponentsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppComponents-AppComponentsTests.release.xcconfig"; path = "Target Support Files/Pods-AppComponents-AppComponentsTests/Pods-AppComponents-AppComponentsTests.release.xcconfig"; sourceTree = "<group>"; };
+		879E77E227736B2900720EA6 /* AppComponents.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppComponents.podspec; sourceTree = "<group>"; };
 		879F8DE5277239AB002CA554 /* AppComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		879F8DE8277239AB002CA554 /* AppComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppComponents.h; sourceTree = "<group>"; };
 		879F8DE9277239AB002CA554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +45,6 @@
 		879F8DF3277239AB002CA554 /* AppComponentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComponentsTests.swift; sourceTree = "<group>"; };
 		879F8DF5277239AB002CA554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		879F8E1F277239DD002CA554 /* SandBox.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SandBox.xcodeproj; path = SandBox/SandBox.xcodeproj; sourceTree = "<group>"; };
-		879F8E2527723A06002CA554 /* AppComponents.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AppComponents.podspec; sourceTree = "<group>"; };
 		879F8E53277255DC002CA554 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		AC66CE2EFAA06866FDEBEF9A /* Pods_AppComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE3A9A5654AE68C8C178631 /* Pods-AppComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppComponents.release.xcconfig"; path = "Target Support Files/Pods-AppComponents/Pods-AppComponents.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,7 +75,7 @@
 		879F8DDB277239AB002CA554 = {
 			isa = PBXGroup;
 			children = (
-				879F8E2527723A06002CA554 /* AppComponents.podspec */,
+				879E77E227736B2900720EA6 /* AppComponents.podspec */,
 				879F8E1F277239DD002CA554 /* SandBox.xcodeproj */,
 				879F8DE7277239AB002CA554 /* AppComponents */,
 				879F8DF2277239AB002CA554 /* AppComponentsTests */,
@@ -251,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				879E77E327736B2900720EA6 /* AppComponents.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

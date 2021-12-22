@@ -6,14 +6,16 @@
 //
 
 import UIKit
+import AppComponents
 
 class ViewController: UIViewController {
 
+	@IBOutlet weak var button: UIButton!
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view.
+		button.setBorder(.blue, width: 1)
 	}
-
 
 }
 

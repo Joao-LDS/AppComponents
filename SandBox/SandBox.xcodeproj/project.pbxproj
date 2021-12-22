@@ -104,7 +104,6 @@
 				879F8E05277239DA002CA554 /* Frameworks */,
 				879F8E06277239DA002CA554 /* Resources */,
 				055D7DA9B71112D088529099 /* [CP] Embed Pods Frameworks */,
-				2C5C82563CF7F5408F992264 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,23 +175,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SandBox/Pods-SandBox-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2C5C82563CF7F5408F992264 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SandBox/Pods-SandBox-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SandBox/Pods-SandBox-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SandBox/Pods-SandBox-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6CE4F6CF170F735A375068D7 /* [CP] Check Pods Manifest.lock */ = {
