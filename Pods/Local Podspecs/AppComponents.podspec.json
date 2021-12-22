@@ -1,6 +1,6 @@
 {
   "name": "AppComponents",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "summary": "Components to be used in the App.",
   "homepage": "https://github.com/Joao-LDS/AppComponents",
   "authors": {
@@ -11,7 +11,7 @@
   },
   "source": {
     "git": "https://github.com/Joao-LDS/AppComponents.git",
-    "tag": "0.1.1"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "11.0"

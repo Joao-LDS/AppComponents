@@ -17,6 +17,7 @@ class ViewController: UIViewController {
 		button.setBorder(.blue, width: 1)
 		button.setCorner(6)
 		button.setColor(.brown)
+		button.addPrintLabel()
 	}
 
 }

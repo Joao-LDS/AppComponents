@@ -22,4 +22,11 @@ public extension UIButton {
 		backgroundColor = color
 	}
 	
+	func addPrintLabel() {
+		addTarget(self, action: #selector(printTitleLabel), for: .touchUpInside)
+	}
+	
+	@objc private func printTitleLabel(_ sender: UIButton) {
+		print(sender.titleLabel?.text ?? "")
+	}
 }

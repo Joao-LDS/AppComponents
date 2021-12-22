@@ -1,5 +1,5 @@
 PODS:
-  - AppComponents (0.1.1):
+  - AppComponents (0.1.4):
     - "UIView+Shimmer"
   - SnapshotTesting (1.9.0)
   - "UIView+Shimmer (1.0.0)"
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  AppComponents: 84b1f157db795f4c1c245f226e824b91e88aafb8
+  AppComponents: f788a8651e745891d03d369d22b7ed4583faf2a2
   SnapshotTesting: 6141c48b6aa76ead61431ca665c14ab9a066c53b
   "UIView+Shimmer": ed634f95e8f4bda666b28b47bd85a4336a4117d8
 
