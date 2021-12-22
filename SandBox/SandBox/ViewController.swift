@@ -15,6 +15,7 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		button.setBorder(.blue, width: 1)
+		button.setCorner(6)
 	}
 
 }

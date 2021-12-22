@@ -9,9 +9,13 @@ import UIKit
 
 public extension UIButton {
 	
-	public func setBorder(_ color: UIColor, width: CGFloat) {
+	func setBorder(_ color: UIColor, width: CGFloat) {
 		layer.borderColor = color.cgColor
 		layer.borderWidth = width
+	}
+	
+	func setCorner(_ value: CGFloat) {
+		layer.cornerRadius = value
 	}
 	
 }

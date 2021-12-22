@@ -122,7 +122,7 @@
 		01ED7E5B5E730FE3ED231F9B181B36F3 /* Snapshotting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Snapshotting.swift; path = Sources/SnapshotTesting/Snapshotting.swift; sourceTree = "<group>"; };
 		0280ED22AB5C65153952E6F6BF9798BB /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = Sources/SnapshotTesting/Snapshotting/UIView.swift; sourceTree = "<group>"; };
 		07F8068A0DCCEB8A621D1A7B6F1B59B7 /* NSBezierPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSBezierPath.swift; path = Sources/SnapshotTesting/Snapshotting/NSBezierPath.swift; sourceTree = "<group>"; };
-		0EC33D9A5590588908818F8763C060B6 /* AppComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AppComponents.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		0EC33D9A5590588908818F8763C060B6 /* AppComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AppComponents.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		113AABFA81E91335740DFA83C983B0F2 /* UIView+Shimmer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Shimmer-prefix.pch"; sourceTree = "<group>"; };
 		1428497DBFDCF32858756FEB7D2E49A9 /* ResourceBundle-AppComponents-AppComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AppComponents-AppComponents-Info.plist"; sourceTree = "<group>"; };
 		14F759BB8A2A8BA99683EA7403DAEFF4 /* AssertInlineSnapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertInlineSnapshot.swift; path = Sources/SnapshotTesting/AssertInlineSnapshot.swift; sourceTree = "<group>"; };
@@ -176,7 +176,7 @@
 		80596915E57FC5E585EC257B3946874E /* Pods-AppComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppComponents.modulemap"; sourceTree = "<group>"; };
 		98C336CEB7589D0C6B7C6604F919FAAB /* Pods-AppComponents-AppComponentsTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AppComponents-AppComponentsTests"; path = Pods_AppComponents_AppComponentsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF84F322E3B9881621CB6558475DD2E /* AppComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppComponents-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A037DBBCCACBFACB5C39A80B1C273043 /* SnapshotTesting */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapshotTesting; path = SnapshotTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B4CF17EE22E9B08C369C9E0325A1B0 /* SpriteKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpriteKit.swift; path = Sources/SnapshotTesting/Snapshotting/SpriteKit.swift; sourceTree = "<group>"; };
 		A9CF3158D79B34C6D9550FD7BD8B91D3 /* SnapshotTesting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapshotTesting-prefix.pch"; sourceTree = "<group>"; };
@@ -351,6 +351,7 @@
 				381772D15D6D8CB83F3AAE4E25DC8CA3 /* XCTAttachment.swift */,
 				3895B4F10011082C46FC5CF1C119C380 /* Support Files */,
 			);
+			name = SnapshotTesting;
 			path = SnapshotTesting;
 			sourceTree = "<group>";
 		};
@@ -488,6 +489,7 @@
 				4963E09FC88D8720E696CC92325F2A68 /* UIView+Shimmer.m */,
 				DAF8E7A752D3C809EADB2146F1F2BFA6 /* Support Files */,
 			);
+			name = "UIView+Shimmer";
 			path = "UIView+Shimmer";
 			sourceTree = "<group>";
 		};
