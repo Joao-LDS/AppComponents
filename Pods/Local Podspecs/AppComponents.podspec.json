@@ -27,7 +27,7 @@
     ]
   },
   "dependencies": {
-    "UIView+Shimmer": [
+    "UIView-Shimmer": [
 
     ]
   },

@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		879F8E0C277239DA002CA554 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879F8E0B277239DA002CA554 /* AppDelegate.swift */; };
-		879F8E0E277239DA002CA554 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879F8E0D277239DA002CA554 /* SceneDelegate.swift */; };
-		879F8E10277239DA002CA554 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879F8E0F277239DA002CA554 /* ViewController.swift */; };
+		879F8E10277239DA002CA554 /* ExempleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879F8E0F277239DA002CA554 /* ExempleViewController.swift */; };
 		879F8E13277239DB002CA554 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879F8E11277239DB002CA554 /* Main.storyboard */; };
 		879F8E15277239DD002CA554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879F8E14277239DD002CA554 /* Assets.xcassets */; };
 		879F8E18277239DD002CA554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879F8E16277239DD002CA554 /* LaunchScreen.storyboard */; };
@@ -20,8 +19,7 @@
 		1860185A99AEAF85E8318D32 /* Pods-SandBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SandBox.release.xcconfig"; path = "Target Support Files/Pods-SandBox/Pods-SandBox.release.xcconfig"; sourceTree = "<group>"; };
 		879F8E08277239DA002CA554 /* SandBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SandBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		879F8E0B277239DA002CA554 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		879F8E0D277239DA002CA554 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		879F8E0F277239DA002CA554 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		879F8E0F277239DA002CA554 /* ExempleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExempleViewController.swift; sourceTree = "<group>"; };
 		879F8E12277239DB002CA554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		879F8E14277239DD002CA554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		879F8E17277239DD002CA554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,8 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				879F8E0B277239DA002CA554 /* AppDelegate.swift */,
-				879F8E0D277239DA002CA554 /* SceneDelegate.swift */,
-				879F8E0F277239DA002CA554 /* ViewController.swift */,
+				879F8E0F277239DA002CA554 /* ExempleViewController.swift */,
 				879F8E11277239DB002CA554 /* Main.storyboard */,
 				879F8E14277239DD002CA554 /* Assets.xcassets */,
 				879F8E16277239DD002CA554 /* LaunchScreen.storyboard */,
@@ -206,9 +203,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				879F8E10277239DA002CA554 /* ViewController.swift in Sources */,
+				879F8E10277239DA002CA554 /* ExempleViewController.swift in Sources */,
 				879F8E0C277239DA002CA554 /* AppDelegate.swift in Sources */,
-				879F8E0E277239DA002CA554 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +355,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4FGAJ25MKJ;
 				INFOPLIST_FILE = SandBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,6 +376,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4FGAJ25MKJ;
 				INFOPLIST_FILE = SandBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

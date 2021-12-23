@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "AppComponents.h"
 
 FOUNDATION_EXPORT double AppComponentsVersionNumber;
 FOUNDATION_EXPORT const unsigned char AppComponentsVersionString[];

@@ -7,7 +7,7 @@ workspace 'AppComponents.xcworkspace'
 
 target 'AppComponents' do
 	
-	pod 'UIView+Shimmer'
+	pod 'UIView-Shimmer'
 
   target 'AppComponentsTests' do
 		

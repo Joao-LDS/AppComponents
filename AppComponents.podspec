@@ -24,6 +24,6 @@ Pod::Spec.new do |spec|
     ]
   }
 
-  spec.dependency 'UIView+Shimmer'
+  spec.dependency 'UIView-Shimmer'
 
 end

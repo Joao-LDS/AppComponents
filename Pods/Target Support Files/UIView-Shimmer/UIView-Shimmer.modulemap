@@ -1,5 +1,5 @@
 framework module UIView_Shimmer {
-  umbrella header "UIView+Shimmer-umbrella.h"
+  umbrella header "UIView-Shimmer-umbrella.h"
 
   export *
   module * { export * }
