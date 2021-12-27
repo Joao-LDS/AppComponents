@@ -8,7 +8,7 @@ protocol SetupView {
 }
 
 extension SetupView {
-	func setupUI() {
+	public func setupUI() {
 		addSubviews()
 		addContraints()
 		addConfiguration()

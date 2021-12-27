@@ -1,3 +1,7 @@
+/*
+	Material de referência https://medium.com/xp-inc/interface-modularizada-para-apps-ios-9d39fa201dba
+*/
+
 import Foundation
 
 /// Esse é o protocol que define o comportamento e dados necessários para a renderização e utilização de um Component.
