@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name = 'AppComponents'
-  spec.version = '0.1.4'
+  spec.version = '0.1.6'
   spec.summary = 'Components to be used in the App.'
   spec.homepage = 'https://github.com/Joao-LDS/AppComponents'
   spec.author = { 'João Luis dos Santos' => "joao_l_d_s@hotmail.com" }
